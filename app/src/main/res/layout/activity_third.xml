@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFACD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:textSize="40dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtFromMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:hint="From main..."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/txtThirdToMain"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Send text to main"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnThirdToMain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back to main"
+        android:layout_margin="5dp"
+        android:backgroundTint="#B22222"
+        />
+
+</LinearLayout>

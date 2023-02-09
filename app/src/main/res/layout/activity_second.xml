@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7F50"
+    tools:context=".SecondActivity">
+
+    <TableRow android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="Second"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtFromMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:hint="From main..."
+        android:textAlignment="center" />
+
+    <TableRow android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSecondToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#0000FF"
+            android:text="Back to main"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/txtSecondToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Send text to main"
+            android:textAlignment="center" />
+    </TableRow>
+
+</TableLayout>
