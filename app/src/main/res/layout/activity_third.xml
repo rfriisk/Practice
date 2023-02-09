@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity"
-    android:orientation="vertical"
+    android:background="#ffbe0b"
     android:gravity="center_horizontal"
-    android:background="#FFFACD">
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Third"
-        android:textSize="40dp"
         android:layout_marginBottom="100dp"
-        android:textColor="@color/black"
-        />
+        android:text="Third"
+        android:textColor="#fb5607"
+        android:textSize="40dp" />
 
     <TextView
         android:id="@+id/txtFromMain"
@@ -26,28 +25,43 @@
         android:gravity="center"
         android:hint="From main..."
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        />
-
-    <EditText
-        android:id="@+id/txtThirdToMain"
-        android:layout_width="360dp"
+        android:textColor="#8338ec"
+        android:textColorHint="#8338ec"
+        android:textSize="25dp"/>
+    />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#3a86ff">
+    <Spinner
+        android:id="@+id/spnRespons"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:hint="Send text to main"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:backgroundTint="#000"
+        android:popupBackground="#ffbe0b"
+
         />
+</RelativeLayout>
 
     <Button
         android:id="@+id/btnThirdToMain"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Back to main"
         android:layout_margin="5dp"
-        android:backgroundTint="#B22222"
-        />
+        android:backgroundTint="#ff006e"
+        android:text="Back to main" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/txtThirdToMain"-->
+    <!--        android:layout_width="360dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="15dp"-->
+    <!--        android:hint="Send text to main"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textColorHint="@color/black"-->
+    <!--        />-->
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF7F50"
+    android:background="#fee440"
     tools:context=".SecondActivity">
 
     <TableRow android:gravity="center_horizontal">
@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="100dp"
             android:text="Second"
+            android:textColor="#00f5d4"
             android:textAlignment="center"
             android:textSize="40dp" />
 
@@ -26,7 +27,46 @@
         android:layout_margin="15dp"
         android:gravity="center"
         android:hint="From main..."
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="#9b5de5"
+        android:textColorHint="#9b5de5"
+        android:textSize="25dp"
+        />
+
+    <TableRow
+        android:gravity="center">
+        <RadioGroup
+            android:id="@+id/rbGroup"
+            >
+            <RadioButton
+                android:id="@+id/rbModtaget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modtaget"
+                android:textSize="20dp"
+                android:textColor="#f15bb5"
+                />
+            <RadioButton
+                android:id="@+id/rbIkkeModtaget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ikke forstået"
+                android:textSize="20dp"
+                android:textColor="#f15bb5"
+
+                />
+            <RadioButton
+                android:id="@+id/rbKomIgen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gentag"
+                android:textSize="20dp"
+                android:textColor="#f15bb5"
+
+                />
+        </RadioGroup>
+
+    </TableRow>
 
     <TableRow android:gravity="center">
 
@@ -35,18 +75,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:backgroundTint="#0000FF"
+            android:backgroundTint="#00bbf9"
             android:text="Back to main"
             android:textColor="@color/white"
             />
 
-        <EditText
-            android:id="@+id/txtSecondToMain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:hint="Send text to main"
-            android:textAlignment="center" />
+<!--        <EditText-->
+<!--            android:id="@+id/txtSecondToMain"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:hint="Send text to main"-->
+<!--            android:textAlignment="center" />-->
     </TableRow>
 
 </TableLayout>

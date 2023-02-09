@@ -49,6 +49,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//        secondActivityLauncher = registerForActivityResult(
+//                new ActivityResultContracts.StartActivityForResult(),
+//                result -> {
+//                    if (result.getResultCode() == Activity.RESULT_OK){
+//                        Intent intent = result.getData();
+//                        String text = intent.getStringExtra("textFromSecond");
+//                        txtFromSecond.setText(text);
+//                    }
+//                }
+//        );
+
         secondActivityLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 result -> {

@@ -16,6 +16,7 @@
         android:textSize="40dp"
         android:layout_marginBottom="100dp"
         android:textColor="@color/black"
+
         />
 
     <TextView
@@ -27,8 +28,10 @@
         android:layout_margin="15dp"
         android:textColor="#000"
         android:textColorHint="@color/black"
+        android:textSize="25dp"/>
 
-        />
+
+    />
 
     <TextView
         android:id="@+id/txtFromThird"
@@ -39,8 +42,10 @@
         android:layout_margin="15dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textSize="25dp"/>
 
-        />
+
+    />
 
     <Button
         android:id="@+id/btnToSecond"
@@ -48,7 +53,7 @@
         android:layout_height="wrap_content"
         android:text="Second page"
         android:layout_margin="5dp"
-        android:backgroundTint="#0000FF"
+        android:backgroundTint="#00bbf9"
         android:textColor="@color/white"
 
         />
@@ -70,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Third Page"
         android:layout_margin="5dp"
-        android:backgroundTint="#B22222"
+        android:backgroundTint="#ff006e"
         android:textColor="@color/white"
         />
 
